@@ -1,0 +1,95 @@
+/* Main Page Container */
+.result-page {
+    min-height: 100vh;
+    background-color: #0b110d;
+    /* Deep lab-like dark green/black */
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e8f5e9;
+}
+
+/* Glowing Header */
+.result-page h2 {
+    font-size: 2.5rem;
+    color: #4caf50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(76, 175, 80, 0.4);
+    position: relative;
+}
+
+.result-page h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #4caf50;
+    border-radius: 2px;
+    box-shadow: 0 0 10px #4caf50;
+}
+
+/* Glassmorphism Gallery Container */
+.result-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    padding: 25px;
+    margin-bottom: 40px;
+
+    /* Glass effect */
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(76, 175, 80, 0.2);
+    border-radius: 16px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Individual Image Styling & Animation */
+.result-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid rgba(76, 175, 80, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    cursor: pointer;
+    background-color: #1a231e;
+}
+
+/* Hover Effect for Images */
+.result-img:hover {
+    transform: translateY(-8px) scale(1.05);
+    border-color: #81c784;
+    box-shadow: 0 12px 25px rgba(76, 175, 80, 0.4);
+    z-index: 2;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 600px) {
+    .result-page h2 {
+        font-size: 2rem;
+    }
+
+    .result-images {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .result-img {
+        width: 110px;
+        height: 110px;
+    }
+}

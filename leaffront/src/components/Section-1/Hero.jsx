@@ -10,7 +10,6 @@ function Hero() {
       </div>
 
       <div className="hero-right">
-       
         <Hero3D />
       </div>
     </section>

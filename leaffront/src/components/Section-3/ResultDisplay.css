@@ -1,0 +1,128 @@
+/* Loading Animation */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #4caf50;
+}
+
+.loader-circle {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #4caf50;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Result Card Styling */
+.result-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+    overflow-y: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.error-card {
+    border-left: 5px solid #ff4d4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.retry-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.ai-greeting {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background: rgba(76, 175, 80, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #4caf50;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.ai-icon {
+    font-size: 1.8rem;
+}
+
+.data-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.label {
+    font-weight: bold;
+    color: #a5d6a7;
+}
+
+.value.highlight {
+    color: #ffb74d;
+    font-weight: bold;
+}
+
+.data-section {
+    margin-top: 20px;
+}
+
+.data-section h4 {
+    color: #4caf50;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.data-section p {
+    color: #ddd;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.treatment-box {
+    background: rgba(255, 183, 77, 0.1);
+    border: 1px solid #ffb74d;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.treatment-box h4 {
+    color: #ffb74d;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.treatment-box p {
+    margin: 5px 0;
+    color: #eee;
+    font-size: 0.95rem;
+}

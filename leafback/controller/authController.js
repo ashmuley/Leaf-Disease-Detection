@@ -33,7 +33,7 @@ exports.registerUser = async (req, res) => {
       district,
       city
     });
-    
+
     console.log("Saved User:", user);
     res.status(201).json({
       message: "User registered successfully"
@@ -77,8 +77,9 @@ exports.registerUser = async (req, res) => {
 // LOGIN
 exports.loginUser = async (req, res) => {
   try {
-    const { email, password } = req.body;
 
+    const { email, password } = req.body;
+    console.log(email, password);
     const user = await User.findOne({ email });
     if (!user) {
       return res.status(400).json({ message: "Invalid credentials" });
@@ -108,6 +109,7 @@ exports.loginUser = async (req, res) => {
     });
 
   } catch (error) {
+    console.log(error);
     res.status(500).json({ message: "Server error" });
   }
 };

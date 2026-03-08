@@ -1,0 +1,594 @@
+[
+    {
+        "crop": "Apple",
+        "disease": "Apple Scab",
+        "scientific_name": "Venturia inaequalis",
+        "type": "Fungal",
+        "severity": "Moderate to High",
+        "possible_reason": "Fungal pathogen that overwinters on fallen leaves and releases spores during wet, cool spring weather.",
+        "symptoms": "Olive-green to black scaly lesions on leaves and fruit, causing leaf drop and deformed apples.",
+        "precaution_method": "Rake and destroy fallen leaves in autumn. Prune trees to ensure good air circulation and rapid drying.",
+        "treatment": {
+            "pesticide": "Mancozeb 75% WP",
+            "dosage_per_acre": "600–800 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Apply preventative fungicide sprays starting at the green tip stage before rain events."
+    },
+    {
+        "crop": "Apple",
+        "disease": "Apple Black Rot",
+        "scientific_name": "Botryosphaeria obtusa",
+        "type": "Fungal",
+        "severity": "High",
+        "possible_reason": "Fungal pathogen infects through wounds, dead bark, or mummified fruits left in the orchard.",
+        "symptoms": "Circular brown lesions on leaves, black rotting spots on fruits, and cankers on branches.",
+        "precaution_method": "Remove dead wood, cankers, and infected fruits from the orchard and burn them.",
+        "treatment": {
+            "pesticide": "Captan 50% WP",
+            "dosage_per_acre": "500–600 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Sanitize pruning tools between cuts to prevent spreading infection."
+    },
+    {
+        "crop": "Apple",
+        "disease": "Apple Cedar Apple Rust",
+        "scientific_name": "Gymnosporangium juniperi-virginianae",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Fungus requires both apple trees and nearby cedar/juniper trees to complete its life cycle.",
+        "symptoms": "Bright orange or yellow spots on leaves with tiny black dots in the center, causing premature defoliation.",
+        "precaution_method": "Remove eastern red cedar trees within a 1-to-2-mile radius of the orchard if possible.",
+        "treatment": {
+            "pesticide": "Myclobutanil 10% WP",
+            "dosage_per_acre": "150 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Plant rust-resistant apple varieties when establishing a new orchard."
+    },
+    {
+        "crop": "Apple",
+        "disease": "Apple Healthy",
+        "scientific_name": "N/A",
+        "type": "N/A",
+        "severity": "N/A",
+        "possible_reason": "Optimal growing conditions, proper nutrition, and effective pest management.",
+        "symptoms": "Vibrant green leaves, strong branches, and unblemished fruit development.",
+        "precaution_method": "Maintain regular watering, pruning, and fertilization schedules.",
+        "treatment": {
+            "pesticide": "None",
+            "dosage_per_acre": "N/A",
+            "water_required": "N/A"
+        },
+        "other_suggestion": "Continue routine scouting for early signs of pests or seasonal diseases."
+    },
+    {
+        "crop": "Corn",
+        "disease": "Corn Cercospora Leaf Spot (Gray Leaf Spot)",
+        "scientific_name": "Cercospora zeae-maydis",
+        "type": "Fungal",
+        "severity": "High",
+        "possible_reason": "Overwinters in corn debris on the soil surface; thrives in prolonged warm, humid weather.",
+        "symptoms": "Rectangular, pale brown to gray lesions that run parallel to the leaf veins.",
+        "precaution_method": "Practice crop rotation (non-host crops for 1-2 years) and employ deep tillage to bury infected debris.",
+        "treatment": {
+            "pesticide": "Azoxystrobin 18.2% + Difenoconazole 11.4% SC",
+            "dosage_per_acre": "200 ml",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Select highly resistant corn hybrids for future planting."
+    },
+    {
+        "crop": "Corn",
+        "disease": "Corn Common Rust",
+        "scientific_name": "Puccinia sorghi",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Airborne spores blown in from warmer climates; favored by cool, moist conditions.",
+        "symptoms": "Small, powdery, brick-red to brown pustules on both upper and lower leaf surfaces.",
+        "precaution_method": "Plant early to avoid peak spore showers later in the season.",
+        "treatment": {
+            "pesticide": "Pyraclostrobin 20% WG",
+            "dosage_per_acre": "150–200 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Usually not economically devastating unless it hits the crop before the tasseling stage."
+    },
+    {
+        "crop": "Corn",
+        "disease": "Corn Northern Leaf Blight",
+        "scientific_name": "Exserohilum turcicum",
+        "type": "Fungal",
+        "severity": "High",
+        "possible_reason": "Fungus overwinters in crop residue; infections occur during moderate temperatures with heavy dew.",
+        "symptoms": "Large, cigar-shaped, grayish-green to tan lesions on leaves, progressing from bottom to top.",
+        "precaution_method": "Use a 1-to-2-year crop rotation away from corn and manage residue via tillage.",
+        "treatment": {
+            "pesticide": "Mancozeb 75% WP",
+            "dosage_per_acre": "600 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Scout lower leaves early in the season to catch the infection before it reaches the ear leaves."
+    },
+    {
+        "crop": "Corn",
+        "disease": "Corn Healthy",
+        "scientific_name": "N/A",
+        "type": "N/A",
+        "severity": "N/A",
+        "possible_reason": "Good soil fertility, sufficient rainfall, and absence of major pathogens.",
+        "symptoms": "Dark green foliage, sturdy stalks, and well-developed ears.",
+        "precaution_method": "Maintain proper weed control to prevent nutrient competition.",
+        "treatment": {
+            "pesticide": "None",
+            "dosage_per_acre": "N/A",
+            "water_required": "N/A"
+        },
+        "other_suggestion": "Monitor soil moisture to prevent drought stress during the crucial tasseling and silking stages."
+    },
+    {
+        "crop": "Grapes",
+        "disease": "Grape Black Rot",
+        "scientific_name": "Guignardia bidwellii",
+        "type": "Fungal",
+        "severity": "High",
+        "possible_reason": "Overwinters in mummified berries and cane lesions; spreads via rain splash during warm, wet weather.",
+        "symptoms": "Light brown lesions on leaves with dark borders; berries turn hard, black, and shriveled (mummies).",
+        "precaution_method": "Prune out and destroy infected vines and all mummified berries left on the trellis.",
+        "treatment": {
+            "pesticide": "Myclobutanil 40% WSP",
+            "dosage_per_acre": "100–150 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Keep the grapevine canopy open to allow rapid drying of leaves and better spray penetration."
+    },
+    {
+        "crop": "Grapes",
+        "disease": "Grape Esca (Black Measles)",
+        "scientific_name": "Phaeomoniella chlamydospora",
+        "type": "Fungal",
+        "severity": "High",
+        "possible_reason": "Complex of wood-rotting fungi infecting vines primarily through large pruning wounds.",
+        "symptoms": "Leaves show 'tiger-stripe' necrosis; berries develop dark purplish spots (measles). Vine may suddenly collapse.",
+        "precaution_method": "Avoid pruning during wet weather. Apply wound protectant pastes immediately after pruning.",
+        "treatment": {
+            "pesticide": "Fosetyl-Al 80% WP (Preventative only)",
+            "dosage_per_acre": "600–800 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Severely infected vines cannot be cured and should be uprooted and burned to protect neighboring vines."
+    },
+    {
+        "crop": "Grapes",
+        "disease": "Grape Leaf Blight (Isariopsis Leaf Spot)",
+        "scientific_name": "Pseudocercospora vitis",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Fungal spores spread during periods of heavy rainfall and high humidity late in the season.",
+        "symptoms": "Dark red to brown angular spots on leaves, which may dry up and drop off, weakening the vine.",
+        "precaution_method": "Remove and destroy infected fallen leaves. Improve air circulation through canopy management.",
+        "treatment": {
+            "pesticide": "Copper Oxychloride 50% WP",
+            "dosage_per_acre": "500–600 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Avoid overhead irrigation, which keeps foliage wet and promotes fungal growth."
+    },
+    {
+        "crop": "Grapes",
+        "disease": "Grape Healthy",
+        "scientific_name": "N/A",
+        "type": "N/A",
+        "severity": "N/A",
+        "possible_reason": "Excellent canopy management, balanced soil nutrition, and proactive disease prevention.",
+        "symptoms": "Lush green leaves, clean canes, and uniform, unblemished fruit clusters.",
+        "precaution_method": "Continue regular pruning and trellis maintenance.",
+        "treatment": {
+            "pesticide": "None",
+            "dosage_per_acre": "N/A",
+            "water_required": "N/A"
+        },
+        "other_suggestion": "Maintain a preventative fungicide program (like sulfur dust) early in the season to keep powdery mildew away."
+    },
+    {
+        "crop": "Potatoes",
+        "disease": "Potato Early Blight",
+        "scientific_name": "Alternaria solani",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Fungus survives in soil and crop debris; affects older, lower leaves first during alternating wet and dry weather.",
+        "symptoms": "Dark brown spots with concentric rings (target-like) on older leaves, causing them to turn yellow and die.",
+        "precaution_method": "Use certified disease-free seeds and practice a 3-to-4-year crop rotation.",
+        "treatment": {
+            "pesticide": "Chlorothalonil 75% WP",
+            "dosage_per_acre": "400–500 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Ensure plants have adequate nitrogen; stressed plants are more susceptible to early blight."
+    },
+    {
+        "crop": "Potatoes",
+        "disease": "Potato Late Blight",
+        "scientific_name": "Phytophthora infestans",
+        "type": "Oomycete (Water Mold)",
+        "severity": "Critical",
+        "possible_reason": "Highly destructive pathogen that spreads rapidly in cool, wet, and humid conditions.",
+        "symptoms": "Water-soaked, dark green to black patches on leaves, white fuzzy growth on undersides, and rotting tubers.",
+        "precaution_method": "Destroy cull piles (discarded potatoes). Ensure good soil hilling to protect tubers from spores washing down.",
+        "treatment": {
+            "pesticide": "Metalaxyl 8% + Mancozeb 64% WP",
+            "dosage_per_acre": "500 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "This disease caused the Irish Potato Famine. Treat immediately upon first sighting or use preventative sprays."
+    },
+    {
+        "crop": "Potatoes",
+        "disease": "Potato Healthy",
+        "scientific_name": "N/A",
+        "type": "N/A",
+        "severity": "N/A",
+        "possible_reason": "Good seed quality, well-draining soil, and favorable weather conditions.",
+        "symptoms": "Vigorous green foliage and smooth, firm tubers forming underground.",
+        "precaution_method": "Maintain even soil moisture to prevent tuber cracking or hollow heart.",
+        "treatment": {
+            "pesticide": "None",
+            "dosage_per_acre": "N/A",
+            "water_required": "N/A"
+        },
+        "other_suggestion": "Monitor the field for pests like the Colorado Potato Beetle during the growing season."
+    },
+    {
+        "crop": "Sugarcane",
+        "disease": "Sugarcane Mosaic",
+        "scientific_name": "Sugarcane mosaic virus (SCMV)",
+        "type": "Viral",
+        "severity": "Moderate to High",
+        "possible_reason": "Transmitted by several aphid species feeding on infected plants, or spread via infected seed canes.",
+        "symptoms": "Mottling or mosaic patterns of light and dark green on young leaves; stunting of plant growth.",
+        "precaution_method": "Always use healthy, certified, tissue-cultured seed sets for planting.",
+        "treatment": {
+            "pesticide": "Imidacloprid 17.8% SL (to control aphid vectors)",
+            "dosage_per_acre": "100 ml",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Remove and destroy infected clumps (roguing) immediately. Viruses cannot be cured with chemicals."
+    },
+    {
+        "crop": "Sugarcane",
+        "disease": "Sugarcane Red Rot",
+        "scientific_name": "Colletotrichum falcatum",
+        "type": "Fungal",
+        "severity": "Critical",
+        "possible_reason": "Enters through borer holes or infected seed material; spreads quickly in waterlogged soils.",
+        "symptoms": "Leaves wither from top to bottom; split canes show reddened tissue with transverse white bands and emit a sour, alcoholic smell.",
+        "precaution_method": "Uproot and burn infected clumps. Rotate with non-host crops like paddy. Avoid waterlogging.",
+        "treatment": {
+            "pesticide": "Thiophanate Methyl 70% WP",
+            "dosage_per_acre": "500 g (used primarily as a preventative seed-sett dip)",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Known as the 'cancer of sugarcane'. Do not use seed canes from fields with a history of red rot."
+    },
+    {
+        "crop": "Sugarcane",
+        "disease": "Sugarcane Rust",
+        "scientific_name": "Puccinia melanocephala",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Spores are wind-borne; disease thrives in high humidity, warm days, and cool nights.",
+        "symptoms": "Elongated yellowish spots on leaves that enlarge and turn into reddish-brown pustules erupting from the leaf surface.",
+        "precaution_method": "Plant rust-resistant varieties and maintain optimal row spacing for air circulation.",
+        "treatment": {
+            "pesticide": "Mancozeb 75% WP",
+            "dosage_per_acre": "800 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Avoid excessive nitrogen fertilization, which produces lush, vulnerable foliage."
+    },
+    {
+        "crop": "Sugarcane",
+        "disease": "Sugarcane Yellow Leaf",
+        "scientific_name": "Sugarcane yellow leaf virus (ScYLV)",
+        "type": "Viral",
+        "severity": "Moderate",
+        "possible_reason": "Transmitted primarily by the sugarcane aphid (Melanaphis sacchari) and through infected stalks.",
+        "symptoms": "Yellowing of the midrib on the lower surface of leaves, spreading out; severe stunting and yield loss.",
+        "precaution_method": "Use virus-free, tissue-cultured seedlings. Do not practice ratoon cropping in heavily infected fields.",
+        "treatment": {
+            "pesticide": "Thiamethoxam 25% WG (to control aphid vectors)",
+            "dosage_per_acre": "100 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "There is no chemical cure. Focus entirely on vector control and clean planting material."
+    },
+    {
+        "crop": "Sugarcane",
+        "disease": "Sugarcane Healthy",
+        "scientific_name": "N/A",
+        "type": "N/A",
+        "severity": "N/A",
+        "possible_reason": "Excellent field sanitation, use of clean seed setts, and optimal water management.",
+        "symptoms": "Tall, thick canes with uniform green foliage and strong internodes.",
+        "precaution_method": "Keep field borders clear of weeds that harbor insect pests.",
+        "treatment": {
+            "pesticide": "None",
+            "dosage_per_acre": "N/A",
+            "water_required": "N/A"
+        },
+        "other_suggestion": "Ensure timely application of basal and top-dressing fertilizers for maximum yield."
+    },
+    {
+        "crop": "Tea",
+        "disease": "Tea Algal Leaf Spot",
+        "scientific_name": "Cephaleuros virescens",
+        "type": "Algal",
+        "severity": "Low to Moderate",
+        "possible_reason": "Parasitic algae thriving in poor drainage, highly acidic soils, and heavily shaded, humid areas.",
+        "symptoms": "Raised, velvety, orange to rust-colored circular patches on the upper surface of mature leaves.",
+        "precaution_method": "Improve soil drainage, reduce shade to allow 50% sunlight, and apply lime if soil pH is too low.",
+        "treatment": {
+            "pesticide": "Copper Oxychloride 50% WP",
+            "dosage_per_acre": "1000 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Prune overcrowded bushes to increase ventilation. Algal spot indicates generally weak bush health."
+    },
+    {
+        "crop": "Tea",
+        "disease": "Tea Anthracnose",
+        "scientific_name": "Colletotrichum camelliae",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Fungal infection occurring frequently during the wet monsoon season on soft, young growth.",
+        "symptoms": "Irregular dark brown patches on leaves, often starting at the margins or tips, leading to leaf drop.",
+        "precaution_method": "Maintain a regular plucking schedule. Do not let water stagnate around the roots.",
+        "treatment": {
+            "pesticide": "Hexaconazole 5% EC",
+            "dosage_per_acre": "200 ml",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Pluck and destroy infected leaves early to stop the spread across the garden."
+    },
+    {
+        "crop": "Tea",
+        "disease": "Tea Bird Eye Spot",
+        "scientific_name": "Cercospora theae",
+        "type": "Fungal",
+        "severity": "Low",
+        "possible_reason": "Favored by continuous drizzle, fog, and high humidity in cooler elevations.",
+        "symptoms": "Small, circular brown spots with a light gray center and dark purple border, resembling a bird's eye.",
+        "precaution_method": "Regulate shade tree canopy to ensure adequate sunlight penetration.",
+        "treatment": {
+            "pesticide": "Mancozeb 75% WP",
+            "dosage_per_acre": "400–500 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Avoid plucking operations when bushes are heavily wet to minimize spreading spores manually."
+    },
+    {
+        "crop": "Tea",
+        "disease": "Tea Brown Blight",
+        "scientific_name": "Colletotrichum gloeosporioides",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Often a secondary infection following sun scorch, hail damage, or pest attacks.",
+        "symptoms": "Large, irregular brown necrotic areas on older leaves, sometimes covered with tiny black fruiting bodies.",
+        "precaution_method": "Protect plants from severe sun scorch through proper shade tree management.",
+        "treatment": {
+            "pesticide": "Copper Oxychloride 50% WP",
+            "dosage_per_acre": "500 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Ensure the tea bushes are well-nourished with potassium to increase natural resistance."
+    },
+    {
+        "crop": "Tea",
+        "disease": "Tea Red Leaf Spot",
+        "scientific_name": "Neopestalotiopsis spp.",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Attacks bushes weakened by nutrient deficiency, drought, or poor soil conditions.",
+        "symptoms": "Reddish-brown spots on leaves that eventually turn gray in the center and crack.",
+        "precaution_method": "Improve soil fertility, specifically focusing on potash (potassium) application.",
+        "treatment": {
+            "pesticide": "Carbendazim 50% WP",
+            "dosage_per_acre": "200 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Implement a strong weed management program to reduce competition for soil nutrients."
+    },
+    {
+        "crop": "Tea",
+        "disease": "Tea White Spot",
+        "scientific_name": "Phyllosticta theacearum",
+        "type": "Fungal",
+        "severity": "Low",
+        "possible_reason": "Fungal disease occurring primarily in crowded, unpruned bushes with poor aeration.",
+        "symptoms": "Tiny, distinct grayish-white spots with dark brown margins on the leaf surface.",
+        "precaution_method": "Skiff or selectively prune bushes to open up the canopy and reduce crowding.",
+        "treatment": {
+            "pesticide": "Hexaconazole 5% EC",
+            "dosage_per_acre": "200 ml",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Improve overall garden hygiene and ensure plucking rounds are strictly maintained."
+    },
+    {
+        "crop": "Tea",
+        "disease": "Tea Healthy",
+        "scientific_name": "N/A",
+        "type": "N/A",
+        "severity": "N/A",
+        "possible_reason": "Excellent garden management, balanced shade, and consistent plucking.",
+        "symptoms": "Flush with bright green shoots (two leaves and a bud) ready for harvest.",
+        "precaution_method": "Maintain regular plucking rounds and balanced NPK fertilizer application.",
+        "treatment": {
+            "pesticide": "None",
+            "dosage_per_acre": "N/A",
+            "water_required": "N/A"
+        },
+        "other_suggestion": "Monitor the underside of leaves for red spider mites during extended dry spells."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Bacterial Spot",
+        "scientific_name": "Xanthomonas campestris pv. vesicatoria",
+        "type": "Bacterial",
+        "severity": "High",
+        "possible_reason": "Bacteria spread by splashing rain, overhead irrigation, and contaminated seeds.",
+        "symptoms": "Small, dark, water-soaked spots on leaves that turn angular; scabby, raised spots on green fruits.",
+        "precaution_method": "Avoid overhead watering; use drip irrigation. Do not work in the field when foliage is wet.",
+        "treatment": {
+            "pesticide": "Copper Hydroxide 77% WP + Mancozeb (Tank Mix)",
+            "dosage_per_acre": "500–600 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Rotate tomatoes and peppers with non-host crops for at least 2 years to break the cycle."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Early Blight",
+        "scientific_name": "Alternaria solani",
+        "type": "Fungal",
+        "severity": "High",
+        "possible_reason": "Fungus survives in soil debris; starts on lower foliage in warm, damp weather.",
+        "symptoms": "Brown spots with concentric target-like rings on older leaves; yellowing of surrounding tissue.",
+        "precaution_method": "Stake or cage plants to keep foliage off the ground. Apply a thick layer of organic mulch.",
+        "treatment": {
+            "pesticide": "Chlorothalonil 75% WP",
+            "dosage_per_acre": "400–500 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Prune and remove the lowest branches once the plant is established to improve airflow."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Late Blight",
+        "scientific_name": "Phytophthora infestans",
+        "type": "Oomycete (Water Mold)",
+        "severity": "Critical",
+        "possible_reason": "Aggressive pathogen thriving in cool, wet, and highly humid environments.",
+        "symptoms": "Large, dark, water-soaked blotches on leaves and stems; firm, dark brown rotting spots on fruits.",
+        "precaution_method": "Ensure excellent air circulation and destroy infected plants completely. Do not compost them.",
+        "treatment": {
+            "pesticide": "Metalaxyl 8% + Mancozeb 64% WP",
+            "dosage_per_acre": "500 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Late blight can destroy an entire crop in days. Apply preventative fungicides if cool, wet weather is forecast."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Leaf Mold",
+        "scientific_name": "Passalora fulva",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Thrives in extremely high humidity and poor airflow, very common in greenhouse tomatoes.",
+        "symptoms": "Pale greenish-yellow spots on the upper leaf surface with olive-green to brown mold on the underside.",
+        "precaution_method": "Improve ventilation in greenhouses. Space plants adequately and remove lower foliage.",
+        "treatment": {
+            "pesticide": "Difenoconazole 25% EC",
+            "dosage_per_acre": "150 ml",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Reduce relative humidity below 85% if growing indoors or in a high tunnel."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Mosaic Virus",
+        "scientific_name": "Tomato mosaic virus (ToMV)",
+        "type": "Viral",
+        "severity": "High",
+        "possible_reason": "Highly contagious; mechanically transmitted via human hands, contaminated tools, or seeds.",
+        "symptoms": "Mottled light and dark green leaves, stunted growth, and sometimes internal browning of fruits.",
+        "precaution_method": "Wash hands with soap and milk before handling plants. Disinfect pruners between every plant.",
+        "treatment": {
+            "pesticide": "None (Cannot cure viruses)",
+            "dosage_per_acre": "N/A",
+            "water_required": "N/A"
+        },
+        "other_suggestion": "Uproot and burn infected plants immediately. Do not use tobacco products near tomato plants."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Septoria Leaf Spot",
+        "scientific_name": "Septoria lycopersici",
+        "type": "Fungal",
+        "severity": "Moderate to High",
+        "possible_reason": "Fungus splashes from soil onto lower leaves during heavy rain or overhead watering.",
+        "symptoms": "Numerous small, circular spots with dark borders and grayish-white centers on lower leaves.",
+        "precaution_method": "Clear all weed hosts (like nightshade). Apply mulch immediately after planting to prevent soil splash.",
+        "treatment": {
+            "pesticide": "Chlorothalonil 75% WP",
+            "dosage_per_acre": "400 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Pick off and dispose of infected leaves as soon as they appear to slow the spread up the plant."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Spider Mites (Two-Spotted Spider Mite)",
+        "scientific_name": "Tetranychus urticae",
+        "type": "Pest (Arachnid)",
+        "severity": "High",
+        "possible_reason": "Tiny sap-sucking pests that explode in population during hot, dry, and dusty conditions.",
+        "symptoms": "Leaves show tiny yellow or white stippling dots; fine webbing is visible on the undersides or between stems.",
+        "precaution_method": "Keep plants well-watered. Hose down foliage occasionally to wash off dust and dislodge mites.",
+        "treatment": {
+            "pesticide": "Abamectin 1.9% EC",
+            "dosage_per_acre": "150 ml",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Mites build chemical resistance incredibly fast. Alternate miticides or use insecticidal soap/neem oil."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Target Spot",
+        "scientific_name": "Corynespora cassiicola",
+        "type": "Fungal",
+        "severity": "Moderate",
+        "possible_reason": "Favored by high humidity, warm temperatures, and heavy fruit loads stressing the plant.",
+        "symptoms": "Small brown spots with a yellow halo on leaves; fruits develop sunken lesions with target-like rings.",
+        "precaution_method": "Ensure adequate plant spacing. Prune excess suckers and foliage to increase light penetration.",
+        "treatment": {
+            "pesticide": "Azoxystrobin 23.6% SC",
+            "dosage_per_acre": "200 ml",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Maintain a balanced fertilization program so plants do not become nutrient-stressed during heavy fruiting."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+        "scientific_name": "Tomato yellow leaf curl virus",
+        "type": "Viral",
+        "severity": "Critical",
+        "possible_reason": "Virus transmitted exclusively by the sweetpotato whitefly (Bemisia tabaci).",
+        "symptoms": "Upward curling and severe yellowing of leaf margins; drastic stunting of plant and flower drop.",
+        "precaution_method": "Use reflective UV mulches to disorient whiteflies. Grow resistant tomato varieties.",
+        "treatment": {
+            "pesticide": "Thiamethoxam 25% WG (Targets the whitefly vector)",
+            "dosage_per_acre": "100 g",
+            "water_required": "200 liters"
+        },
+        "other_suggestion": "Use yellow sticky traps around the field borders to monitor and trap adult whiteflies."
+    },
+    {
+        "crop": "Tomato",
+        "disease": "Tomato Healthy",
+        "scientific_name": "N/A",
+        "type": "N/A",
+        "severity": "N/A",
+        "possible_reason": "Proper staking, disease-free seed, excellent watering practices, and good pest management.",
+        "symptoms": "Sturdy green stems, lush foliage, and abundant flowers/fruit setting without blemishes.",
+        "precaution_method": "Maintain consistent, even moisture to prevent blossom end rot.",
+        "treatment": {
+            "pesticide": "None",
+            "dosage_per_acre": "N/A",
+            "water_required": "N/A"
+        },
+        "other_suggestion": "Continue regular pruning of suckers to ensure energy is directed toward fruit production."
+    }
+]

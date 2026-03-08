@@ -6,16 +6,13 @@ function Hero3D() {
       {/* <Spline  scene="https://prod.spline.design/2d1NRljwo2hx0jlF/scene.splinecode" 
       /> */}
       <Spline
-  //         
-        scene="https://prod.spline.design/2d1NRljwo2hx0jlF/scene.splinecode" 
+        scene="https://prod.spline.design/2d1NRljwo2hx0jlF/scene.splinecode"
         //  scene="https://prod.spline.design/phvgO5TUzxVLnUYe/scene.splinecode" 
-      
-      
-      
+
         onLoad={(spline) => console.log("Spline loaded")}
       />
-      
-    </div>  
+
+    </div>
   );
 }
 
