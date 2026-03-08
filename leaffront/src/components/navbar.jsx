@@ -19,7 +19,9 @@ const handleLogout = () => {
   return (
     <nav className="navbar">
 
-     <img src="src/assets/logo.png" alt="" />
+      <div className="nav-container">
+
+        <img src="src/assets/logo.png" alt="" />
       
       <div className="nav-links">
         <Link to="/" className="nav-link">Home</Link>
@@ -39,6 +41,11 @@ const handleLogout = () => {
       {/* <Link to="/login" className="nav-link">Login</Link>
       <Link to="/register" className="nav-link">Register</Link> */}
       </div>
+
+
+      </div>
+
+     
       
     </nav>
   );

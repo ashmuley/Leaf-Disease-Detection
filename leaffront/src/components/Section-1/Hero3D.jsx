@@ -1,7 +1,8 @@
-import Spline from "@splinetool/react-spline";
+
 
 function Hero3D() {
   return (
+<<<<<<< HEAD
     <div className="spline-container">
       {/* <Spline  scene="https://prod.spline.design/2d1NRljwo2hx0jlF/scene.splinecode" 
       /> */}
@@ -13,14 +14,32 @@ function Hero3D() {
       />
 
     </div>
+=======
+
+    <div className="hero-right">
+
+  <div className="leaf-card">
+
+    <img 
+      src="imgbg.png"
+      alt="Tomato Leaf"
+      className="leaf-image"
+    />
+
+    <div className="leaf-info">
+      <h3>Tomato Leaf</h3>
+      <p>Disease: Early Blight</p>
+      <p className="confidence">Confidence: 96%</p>
+    </div>
+
+  </div>
+
+</div>
+    
+      
+   
+>>>>>>> 0c31db3 (Updated hero section)
   );
 }
 
 export default Hero3D;
-{/* <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.58/build/spline-viewer.js"></script>
-<spline-viewer url="https://prod.spline.design/2d1NRljwo2hx0jlF/scene.splinecode"></spline-viewer> */}
-
-{/* <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.58/build/spline-viewer.js"></script>
-<spline-viewer url="https://prod.spline.design/2d1NRljwo2hx0jlF/scene.splinecode"></spline-viewer> */}
-
-// "https://prod.spline.design/8sJ0K6Wpqn5q5SdM/scene.splinecode"

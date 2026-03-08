@@ -7,7 +7,7 @@ function HeroText() {
             const navigate = useNavigate();
 
           const handleDetectClick = () => {
-            console.log("Button clicked")
+            // console.log("Button clicked")
 
            if (!isLoggedIn()) {
               alert("Please login first");
@@ -23,8 +23,9 @@ function HeroText() {
   return (
     <>
       <h1 id="h1-l1" >AI-Powered </h1>
-      <h1 id="h1-l2">Leaf Disease </h1>
-      <h1 id="h1-l3">Detection</h1>
+      <h1 id="h1-l2" className="h1-3" >Leaf Disease</h1>
+      {/* <h1 id="h1-l4" className="h1-3">Disease</h1> */}
+      <h1 id="h1-l3" className="h1-3">Detection</h1>
       <p>Upload a leaf image and detect plant diseases instantly.</p>
       <button type="button" onClick={handleDetectClick}>Detect Now</button>
     </>

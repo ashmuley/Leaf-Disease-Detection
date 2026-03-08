@@ -33,6 +33,7 @@
  }
 
 
+<<<<<<< HEAD
  .hero {
    display: flex;
    align-items: center;
@@ -75,6 +76,62 @@
    display: inline-block;
    font-family: "Unbounded";
  }
+=======
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  /* background-color:#0F172A; */
+  /* background: linear-gradient(180deg,#000000, #000000); */
+  min-height: 100vh;
+  background-image: url(herobg.png);
+  background-size: cover  ;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  
+}
+
+
+
+.hero-left {
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 40px;
+  /* background-color:#000000; */
+  height: 60vh;
+  width: 610px;
+  font-size: 30px;
+  color: white;
+}
+
+.h1-3{
+  font-family: "Unbounded";
+  font-size: 72px;
+  /* background-image:linear-gradient(90deg,rgba(3, 255, 209, 1) 0%, rgba(87, 199, 121, 1) 46%, rgba(22, 247, 210, 1) 100%); ; */
+  background-image:linear-gradient(90deg,rgba(3, 255, 209, 1) 0%, rgba(87, 199, 121, 1) 46%, rgba(22, 247, 210, 1) 100%); ;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#h1-l1{
+  font-size: 60px;
+   letter-spacing: 1px;
+   font-family: "Nova Square", sans-serif;
+   
+}
+#h1-l2{
+   font-size: 72px;
+  /* background-image:linear-gradient(90deg,rgba(3, 255, 209, 1) 0%, rgba(87, 199, 121, 1) 46%, rgba(22, 247, 210, 1) 100%); ;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  display: inline-block;
+  font-family: "Unbounded";
+}
+>>>>>>> 0c31db3 (Updated hero section)
 
  #h1-l3 {
    /* font-family: "Nova Square", sans-serif; */
@@ -103,6 +160,7 @@
 
 
 
+<<<<<<< HEAD
  .hero-right {
    width: 700px;
    display: flex;
@@ -123,11 +181,83 @@
    height: 100% !important;
    display: block;
  }
+=======
+/* .hero-right {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute;
+  right: -20px; 
+} */
 
+.hero-right{
+  padding: 20px;
+}
+
+/* Card */
+.leaf-card{
+  width: 360px;
+  height: 300px;
+  padding: 35px;
+
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255,255,255,0.2);
+  /* border: 1px solid rgba(255, 255, 255, 0.833); */
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+
+  color: white;
+
+}
+
+
+
+/* Image */
+.leaf-image{
+  width: 100%;
+  height: 200px;
+  /* object-fit: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+
+  border-radius: 10px;
+}
+
+/* Text */
+.leaf-info{
+  margin-top: 10px;
+}
+>>>>>>> 0c31db3 (Updated hero section)
+
+.leaf-info h3{
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.leaf-info p{
+  margin: 3px 0;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.confidence{
+  color: #4ade80;
+  font-weight: 600;
+}
 
  /* ================= MOBILE RESPONSIVE ================= */
 
+<<<<<<< HEAD
  @media (max-width: 768px) {
+=======
+@media (max-width: 900px) {
+>>>>>>> 0c31db3 (Updated hero section)
 
    .hero {
      flex-direction: column;
@@ -136,6 +266,7 @@
      gap: 30px;
    }
 
+<<<<<<< HEAD
    .hero-left {
      width: 100%;
      height: auto;
@@ -143,6 +274,16 @@
      font-size: 20px;
      padding: 20px;
    }
+=======
+  .hero-left {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+>>>>>>> 0c31db3 (Updated hero section)
 
    #h1-l1 {
      font-size: 32px;
@@ -161,6 +302,7 @@
      font-size: 16px;
    }
 
+<<<<<<< HEAD
    .hero-right {
      width: 100%;
      height: 300px;
@@ -171,6 +313,14 @@
      height: 300px;
    }
  }
+=======
+  .hero-right {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 0;
+  }
+}
+>>>>>>> 0c31db3 (Updated hero section)
 
 
  /* Small phones */
